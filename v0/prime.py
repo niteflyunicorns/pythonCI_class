@@ -1,14 +1,13 @@
 def is_prime(number): 
-	for element in range(number): 
-		if (number % element == 0): 
-			return False
-	return True 
+   for element in range(1,number): 
+      if (number % element == 0): 
+         return False
+   return True 
 
 
 def print_next_prime(number): 
-	index = number 
-	while True: 
-		index += 1 
-		if is_prime(index): 
-			print(index)
-
+   index = number 
+   while True: 
+      index += 1 
+      if is_prime(index):  
+         print(index)
