@@ -1,5 +1,11 @@
 def is_prime(number): 
-   for element in range(2,number): 
-      if (number % element == 0): 
-         return False
-   return True
+	if (number <= 1):
+		return False
+
+	if (not type(number) is int):
+		return False
+
+	for element in range(2,number): 
+		if (number % element == 0):
+			return False
+	return True 
