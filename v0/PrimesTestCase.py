@@ -5,9 +5,9 @@ class PrimesTestCase(unittest.TestCase):
    def test_is_five_prime(self):    
       self.assertTrue(is_prime(5)) 
 	   
-    # Test for prime numbers
-    def test_prime_numbers(self):
-        self.assertTrue(is_prime(2))      # 2 is a prime
+   def test_is_nine_prime(self):
+      self.assertFalse(is_prime(9))
+
    
 
 if __name__ == '__main__':
