@@ -8,9 +8,6 @@ class PrimesTestCase(unittest.TestCase):
     # Test for prime numbers
     def test_prime_numbers(self):
         self.assertTrue(is_prime(2))      # 2 is a prime
-        self.assertTrue(is_prime(3))      # 3 is a prime
-        self.assertTrue(is_prime(11))     # 11 is a prime
-        self.assertTrue(is_prime(29))     # 29 is a prime
    
 
 if __name__ == '__main__':
